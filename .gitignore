@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+outputs/
+mlruns/
+*.pt
+.DS_Store
+
+# Raw / processed market data (re-download locally)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Keep summary artefacts for GitHub; ignore heavy run dumps
+reports/predictions/
+reports/*.parquet
+reports/**/*.pt
+!reports/.gitkeep
+!reports/*.csv
+!reports/*.json
+!reports/*.png
+!reports/*.md

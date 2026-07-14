@@ -1,0 +1,21 @@
+name: patchtst_film
+lookback: 60
+patch_len: 16
+stride: 8
+d_model: 128
+n_heads: 4
+n_layers: 3
+dropout: 0.2
+ff_dim: 256
+film_hidden: 64
+n_regimes: 3
+lr: 1.0e-3
+weight_decay: 1.0e-4
+max_epochs: 50
+batch_size: 64
+early_stop_metric: val_sharpe
+patience: 8
+val_frac: 0.2
+use_regime: true
+conditioning: film  # film | concat | cross_attn | none
+loss_type: gaussian

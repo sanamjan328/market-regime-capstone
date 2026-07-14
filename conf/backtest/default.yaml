@@ -1,0 +1,13 @@
+commission_bps: 2.0
+slippage_k: 0.1
+vol_target: 0.10
+leverage_cap: 1.0
+turnover_penalty: 0.0
+borrow_bps: 0.0
+execution: next_open
+regime_gates:
+  # ordered by ascending mean vol after canonization
+  0: 1.0    # low-vol bull
+  1: 0.5    # transition / choppy
+  2: 0.25   # high-vol bear
+  3: 0.0    # crisis (if K=4)

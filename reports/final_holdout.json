@@ -1,0 +1,247 @@
+{
+  "buy_hold": {
+    "n_obs": 752,
+    "date_range": [
+      "2022-01-03",
+      "2024-12-30"
+    ],
+    "sharpe": 0.6840441319859148,
+    "ci_low": -0.5022379478453602,
+    "ci_high": 1.8360133959820872,
+    "deflated_sharpe": 1.9964654762383703e-166,
+    "sortino": 0.9319093230340493,
+    "calmar": 0.5667222147827699,
+    "max_dd": -0.008354627330435016,
+    "dd_duration": 374,
+    "profit_factor": 1.1217470585094897,
+    "ann_return": 0.004734752904388792,
+    "ann_vol": 0.006921706777372496,
+    "regime_attribution": [
+      {
+        "regime": 0,
+        "name": "low_vol_bull",
+        "n_bars": 752,
+        "pct_time": 1.0,
+        "mean_daily_ret": 1.8788702001542827e-05,
+        "ann_return": 0.004734752904388792,
+        "ann_vol": 0.006921706777372496,
+        "sharpe": 0.6840441319859148,
+        "sortino": 0.9319093230340493,
+        "calmar": 0.5667222147827699,
+        "max_dd": -0.008354627330435016,
+        "dd_duration": 374,
+        "hit_rate": 0.526595744680851
+      }
+    ]
+  },
+  "zero": {
+    "n_obs": 752,
+    "date_range": [
+      "2022-01-03",
+      "2024-12-30"
+    ],
+    "sharpe": 0.0,
+    "ci_low": 0.0,
+    "ci_high": 0.0,
+    "deflated_sharpe": 0.0,
+    "sortino": 0.0,
+    "calmar": 0.0,
+    "max_dd": 0.0,
+    "dd_duration": 0,
+    "profit_factor": 0.0,
+    "ann_return": 0.0,
+    "ann_vol": 0.0,
+    "regime_attribution": [
+      {
+        "regime": 0,
+        "name": "low_vol_bull",
+        "n_bars": 752,
+        "pct_time": 1.0,
+        "mean_daily_ret": 0.0,
+        "ann_return": 0.0,
+        "ann_vol": 0.0,
+        "sharpe": 0.0,
+        "sortino": 0.0,
+        "calmar": 0.0,
+        "max_dd": 0.0,
+        "dd_duration": 0,
+        "hit_rate": 0.0
+      }
+    ]
+  },
+  "arima_garch": {
+    "n_obs": 752,
+    "date_range": [
+      "2022-01-03",
+      "2024-12-30"
+    ],
+    "sharpe": 0.46701731967772175,
+    "ci_low": -0.5753688079992628,
+    "ci_high": 1.866441643837876,
+    "deflated_sharpe": 7.5254393439258e-55,
+    "sortino": 0.426683090487011,
+    "calmar": 0.29196971937659333,
+    "max_dd": -0.003864220762506698,
+    "dd_duration": 141,
+    "profit_factor": 1.1507977698222929,
+    "ann_return": 0.0011282354516382862,
+    "ann_vol": 0.002415832141764799,
+    "regime_attribution": [
+      {
+        "regime": 0,
+        "name": "low_vol_bull",
+        "n_bars": 752,
+        "pct_time": 1.0,
+        "mean_daily_ret": 4.477124808088437e-06,
+        "ann_return": 0.0011282354516382862,
+        "ann_vol": 0.002415832141764799,
+        "sharpe": 0.46701731967772175,
+        "sortino": 0.426683090487011,
+        "calmar": 0.29196971937659333,
+        "max_dd": -0.003864220762506698,
+        "dd_duration": 141,
+        "hit_rate": 0.5279255319148937
+      }
+    ]
+  },
+  "lightgbm": {
+    "n_obs": 752,
+    "date_range": [
+      "2022-01-03",
+      "2024-12-30"
+    ],
+    "sharpe": -0.1741666952883547,
+    "ci_low": -1.4238194997076563,
+    "ci_high": 0.8683112442221559,
+    "deflated_sharpe": 0.0,
+    "sortino": -0.24790502319685281,
+    "calmar": -0.0819315083784177,
+    "max_dd": -0.011498133455763448,
+    "dd_duration": 370,
+    "profit_factor": 0.9650466765803217,
+    "ann_return": -0.0009420594175670479,
+    "ann_vol": 0.005408952704805881,
+    "regime_attribution": [
+      {
+        "regime": 0,
+        "name": "low_vol_bull",
+        "n_bars": 752,
+        "pct_time": 1.0,
+        "mean_daily_ret": -3.7383310220914596e-06,
+        "ann_return": -0.0009420594175670479,
+        "ann_vol": 0.005408952704805881,
+        "sharpe": -0.1741666952883547,
+        "sortino": -0.24790502319685281,
+        "calmar": -0.0819315083784177,
+        "max_dd": -0.011498133455763448,
+        "dd_duration": 370,
+        "hit_rate": 0.45611702127659576
+      }
+    ]
+  },
+  "dlinear": {
+    "n_obs": 751,
+    "date_range": [
+      "2022-01-03",
+      "2024-12-27"
+    ],
+    "sharpe": 0.03487654527114737,
+    "ci_low": -1.2325004737825875,
+    "ci_high": 1.0893666037021557,
+    "deflated_sharpe": 0.0,
+    "sortino": 0.052539724961543875,
+    "calmar": 0.014811225487592682,
+    "max_dd": -0.014653442397381977,
+    "dd_duration": 322,
+    "profit_factor": 1.006268979645619,
+    "ann_return": 0.00021703543951707516,
+    "ann_vol": 0.006222962676771315,
+    "regime_attribution": [
+      {
+        "regime": 0,
+        "name": "low_vol_bull",
+        "n_bars": 751,
+        "pct_time": 1.0,
+        "mean_daily_ret": 8.612517441153776e-07,
+        "ann_return": 0.00021703543951707516,
+        "ann_vol": 0.006222962676771315,
+        "sharpe": 0.03487654527114737,
+        "sortino": 0.052539724961543875,
+        "calmar": 0.014811225487592682,
+        "max_dd": -0.014653442397381977,
+        "dd_duration": 322,
+        "hit_rate": 0.4793608521970706
+      }
+    ]
+  },
+  "patchtst_no_regime": {
+    "n_obs": 751,
+    "date_range": [
+      "2022-01-03",
+      "2024-12-27"
+    ],
+    "sharpe": 0.7237728068210804,
+    "ci_low": -0.3641514159846295,
+    "ci_high": 1.8721098778462084,
+    "deflated_sharpe": 1.7744617224508474e-149,
+    "sortino": 0.9850479375562635,
+    "calmar": 0.5988641279452802,
+    "max_dd": -0.008354627330435016,
+    "dd_duration": 373,
+    "profit_factor": 1.1293519577063953,
+    "ann_return": 0.00500328661054877,
+    "ann_vol": 0.006912786116577056,
+    "regime_attribution": [
+      {
+        "regime": 0,
+        "name": "low_vol_bull",
+        "n_bars": 751,
+        "pct_time": 1.0,
+        "mean_daily_ret": 1.9854311946622105e-05,
+        "ann_return": 0.00500328661054877,
+        "ann_vol": 0.006912786116577056,
+        "sharpe": 0.7237728068210804,
+        "sortino": 0.9850479375562635,
+        "calmar": 0.5988641279452802,
+        "max_dd": -0.008354627330435016,
+        "dd_duration": 373,
+        "hit_rate": 0.5272969374167776
+      }
+    ]
+  },
+  "patchtst_film": {
+    "n_obs": 751,
+    "date_range": [
+      "2022-01-03",
+      "2024-12-27"
+    ],
+    "sharpe": -0.14462033417785183,
+    "ci_low": -1.3212285472466174,
+    "ci_high": 0.9801875881981978,
+    "deflated_sharpe": 0.0,
+    "sortino": -0.21625620873975368,
+    "calmar": -0.0615191486270905,
+    "max_dd": -0.001139581657186639,
+    "dd_duration": 356,
+    "profit_factor": 0.9710049928538689,
+    "ann_return": -7.010609334117094e-05,
+    "ann_vol": 0.0004847595861240064,
+    "regime_attribution": [
+      {
+        "regime": 0,
+        "name": "low_vol_bull",
+        "n_bars": 751,
+        "pct_time": 1.0,
+        "mean_daily_ret": -2.781987830998847e-07,
+        "ann_return": -7.010609334117094e-05,
+        "ann_vol": 0.0004847595861240064,
+        "sharpe": -0.14462033417785183,
+        "sortino": -0.21625620873975368,
+        "calmar": -0.0615191486270905,
+        "max_dd": -0.001139581657186639,
+        "dd_duration": 356,
+        "hit_rate": 0.48868175765645805
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+name: dlinear
+lookback: 60
+lr: 1.0e-3
+weight_decay: 1.0e-4
+max_epochs: 50
+batch_size: 64
+patience: 8
+val_frac: 0.2
+use_regime: false
+loss_type: gaussian

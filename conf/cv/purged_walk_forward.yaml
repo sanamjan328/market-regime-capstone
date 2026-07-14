@@ -1,0 +1,16 @@
+scheme: purged_expanding
+embargo_days: 20
+purge_horizon_days: 1
+initial_train_end: "2010-12-31"
+test_years: 2
+final_holdout_start: "2022-01-01"
+final_holdout_end: "2024-12-31"
+n_regime_states_grid: [2, 3, 4, 5, 6]
+selected_k: 3
+regime_features:
+  - realized_vol_20d
+  - vol_of_vol_60d
+  - skew_60d
+  - kurt_60d
+  - trend_strength
+  - term_spread_z

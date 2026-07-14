@@ -1,0 +1,15 @@
+{
+  "sharpe": 0.0326708205349216,
+  "ci_low": -0.5279367193774115,
+  "ci_high": 0.6235978401664898,
+  "n_boot": 1000,
+  "deflated_sharpe": 0.0,
+  "skew": -0.15874350270085455,
+  "kurt": 20.392576428597682,
+  "n_trials": 40,
+  "mc_realised_max_dd": -0.010509873738816733,
+  "mc_null_mean_dd": -0.01016892193476647,
+  "mc_dd_percentile": 0.398,
+  "shuffled_label_sharpe": 0.03267082053492163,
+  "shuffled_ok": true
+}

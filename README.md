@@ -212,19 +212,6 @@ Source: [`reports/regime_attribution.csv`](reports/regime_attribution.csv)
 
 ---
 
-## Documents & notebooks
-
-| Path | Contents |
-|------|----------|
-| [`Capstone_Review_Report.md`](Capstone_Review_Report.md) | Full written review report |
-| [`notebooks/Capstone_Suggestions_and_Future_Work.doc`](notebooks/Capstone_Suggestions_and_Future_Work.doc) | Suggestions, model improvements, future work (Word) |
-| [`notebooks/Research_Improvement_Suggestions.docx`](notebooks/Research_Improvement_Suggestions.docx) | Additional research suggestions |
-| [`notebooks/Market_Regime_Capstone_Architecture.pdf`](notebooks/Market_Regime_Capstone_Architecture.pdf) | System / architecture design |
-| [`notebooks/01_EDA_stylised_facts.ipynb`](notebooks/01_EDA_stylised_facts.ipynb) | EDA & stylised facts |
-| [`notebooks/02_Model_Results_and_Evaluation.ipynb`](notebooks/02_Model_Results_and_Evaluation.ipynb) | Full results narrative + figure generation |
-
----
-
 ## Repository layout
 
 ```text
@@ -355,7 +342,7 @@ Heavy artefacts (`*.parquet`, `predictions/`, Hydra `outputs/`, weight `*.pt`) a
 
 ## Suggestions & future work (summary)
 
-Full write-up: [`notebooks/Capstone_Suggestions_and_Future_Work.doc`](notebooks/Capstone_Suggestions_and_Future_Work.doc)
+See also [`Capstone_Review_Report.md`](Capstone_Review_Report.md) for the full written review.
 
 **Near term**
 - Reconcile ablation vs cost-sensitivity Sharpe sources; audit holdout regime exports
